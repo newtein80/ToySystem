@@ -4,6 +4,7 @@ using System.Text;
 
 /// <summary>
 /// https://beetechnical.com/tech-tutorial/try-to-understand-difference-between-entity-vs-value-object-with-examples/
+/// https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/implement-value-objects
 /// </summary>
 namespace ToySystem.Core.Models
 {
