@@ -1,0 +1,105 @@
+- Youtube
+https://www.youtube.com/watch?v=03nVmrdvNQc
+
+- gitignore
+https://www.gitignore.io/api/react,windows,aspnetcore,visualstudio,visualstudiocode
+
+- git
+https://github.com/newtein80
+
+- Blog
+https://m.blog.naver.com/islove8587/221029900556
+
+- Core Dapper
+https://www.learnmvc.in/crud-operation-with-dotnetcore-dapper.php
+
+
+-- ETC
+
+Clean Architecture
+
+google : asp.net core clean architecture sample
+
+https://github.com/dotnet-architecture/eShopOnContainers
+
+https://github.com/dotnet-architecture/eShopOnWeb
+
+https://github.com/ardalis/CleanArchitecture
+
+https://www.youtube.com/watch?v=UZvfvGrYUg0
+
+https://academy.realm.io/kr/posts/converting-an-app-to-use-clean-architecture/
+
+https://blog.coderifleman.com/2017/12/18/the-clean-architecture/
+
+https://amara.org/ko/videos/0AtjY87egE3m/url/1216370/
+
+https://medium.com/@younghyun/%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-by-%EC%97%89%ED%81%B4-%EB%B0%A5-a6a917ff6afc
+
+http://sheerheart.tistory.com/entry/%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84-%EC%9B%90%EC%B9%99-5%EA%B0%80%EC%A7%80?category=902719
+
+https://stackexchange.github.io/Dapper/
+
+https://github.com/StackExchange/Dapper/blob/master/Readme.md
+
+https://weblog.west-wind.com/posts/2012/Feb/08/Creating-a-dynamic-extensible-C-Expando-Object
+
+https://dapper-tutorial.net/knowledge-base/44775320/automapper-vs-dapper-for-mapping
+
+https://docs.microsoft.com/en-us/dotnet/api/system.dynamic.expandoobject?view=netcore-2.1
+
+https://weblog.west-wind.com/posts/2011/Dec/06/Creating-a-Dynamic-DataReader-for-easier-Property-Access
+
+https://stackoverflow.com/questions/26659819/dapper-dynamic-return-types
+
+https://github.com/RickStrahl/Expando
+
+https://weblog.west-wind.com/posts/2012/Feb/08/Creating-a-dynamic-extensible-C-Expando-Object
+
+*** https://stackoverflow.com/questions/7647711/how-to-add-properties-to-anonymous-object-dynamically
+
+*** https://stackoverflow.com/questions/4535840/deserialize-json-object-into-dynamic-object-using-json-net
+
+*** https://stackoverflow.com/questions/15732340/database-context-and-return-dynamic-result-set-in-asp-net-mvc/15732714
+
+https://www.nuget.org/packages/System.Linq.Dynamic
+
+
+## 2018.12.14 Link
+https://stackoverflow.com/questions/15732340/database-context-and-return-dynamic-result-set-in-asp-net-mvc/15732714
+
+https://stackoverflow.com/questions/7647711/how-to-add-properties-to-anonymous-object-dynamically
+
+google : asp.net core dapper ExpandoObject
+
+google : asp.net core dapper dynamic return
+
+https://stackoverflow.com/questions/26659819/dapper-dynamic-return-types
+
+https://stackoverflow.com/questions/51921286/how-return-string-by-execute-sql-query-in-dapper
+
+http://www.nullskull.com/a/10399923/sqlmapperhelper--a-helper-class-for-dapperdotnet.aspx
+
+google : clean architecture asp.net core
+
+***** https://docs.microsoft.com/ko-kr/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures
+
+https://deviq.com/repository-pattern/
+
+google : asp.net core entity framework other context join
+
+https://stackoverflow.com/questions/41535157/how-to-make-a-join-table-using-ef-core-code-first
+
+https://stackoverflow.com/questions/16025287/entity-framework-query-for-inner-join
+
+https://stackoverflow.com/questions/31959507/linq-ef-join-query-from-2-different-data-context
+
+https://stackoverflow.com/questions/39919230/asp-net-core-entityframework-core-left-outer-join-in-linq
+
+http://www.progware.org/Blog/post/Left-Outer-Join-in-LINQ-to-Entities-(for-Entity-Framework-4).aspx
+
+**** https://www.c-sharpcorner.com/article/crud-operations-in-asp-net-core-2-razor-page-with-dapper-and-repository-pattern/
+
+**** https://code.msdn.microsoft.com/CRUD-Operations-in-AspNet-d958ab27/sourcecode?fileId=187345&pathId=2006126554
+
+**** https://code.msdn.microsoft.com/CRUD-Operations-in-AspNet-d958ab27/sourcecode?fileId=187345&pathId=2006126554

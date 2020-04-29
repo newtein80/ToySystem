@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Document", "0 - Document", "{81BA031D-6DBE-4377-8385-F46987841563}"
 	ProjectSection(SolutionItems) = preProject
+		newtein80.md = newtein80.md
 		README.md = README.md
+		ReferenceUrl.txt = ReferenceUrl.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Core", "1 - Core", "{11A312DA-0CCD-46E3-AD29-9CAD1AB376AE}"
@@ -20,25 +22,36 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - CrossCutting", "5 - Cro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Api", "6 - Api", "{97F7B50E-27CD-459C-B009-F5149CD8F7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.Core", "ToySystem.Core\ToySystem.Core.csproj", "{505DE1C4-2CC3-4BF3-A5DF-80895768D1A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.Core", "ToySystem.Core\ToySystem.Core.csproj", "{505DE1C4-2CC3-4BF3-A5DF-80895768D1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.Domain", "ToySystem.Domain\ToySystem.Domain.csproj", "{8EFEC953-FA86-4E6E-AB20-B602B6F0F30F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.Domain", "ToySystem.Domain\ToySystem.Domain.csproj", "{8EFEC953-FA86-4E6E-AB20-B602B6F0F30F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.Infra", "ToySystem.Infra\ToySystem.Infra.csproj", "{548D428D-6253-47D1-9D5E-4ABE27455610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.Infra", "ToySystem.Infra\ToySystem.Infra.csproj", "{548D428D-6253-47D1-9D5E-4ABE27455610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.Application", "ToySystem.Application\ToySystem.Application.csproj", "{EEB389C0-1976-4637-A572-99E699965BB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.Application", "ToySystem.Application\ToySystem.Application.csproj", "{EEB389C0-1976-4637-A572-99E699965BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.CC.Bus", "ToySystem.CC.Bus\ToySystem.CC.Bus.csproj", "{2FD2B190-0620-46AB-AD96-DA6EC48C0105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.CC.Bus", "ToySystem.CC.Bus\ToySystem.CC.Bus.csproj", "{2FD2B190-0620-46AB-AD96-DA6EC48C0105}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.CC.Identity", "ToySystem.CC.Identity\ToySystem.CC.Identity.csproj", "{CB82AFB5-5341-43A3-B576-5AA996F98F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.CC.Identity", "ToySystem.CC.Identity\ToySystem.CC.Identity.csproj", "{CB82AFB5-5341-43A3-B576-5AA996F98F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.CC.IoC", "ToySystem.CC.IoC\ToySystem.CC.IoC.csproj", "{711E0FFA-A881-4B7D-8878-2B4E91687DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.CC.IoC", "ToySystem.CC.IoC\ToySystem.CC.IoC.csproj", "{711E0FFA-A881-4B7D-8878-2B4E91687DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.Services.Api", "ToySystem.Services.Api\ToySystem.Services.Api.csproj", "{33D14CF0-24FA-451F-9BFC-41175D37B7FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.Services.Api", "ToySystem.Services.Api\ToySystem.Services.Api.csproj", "{33D14CF0-24FA-451F-9BFC-41175D37B7FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - Presentation", "7 - Presentation", "{59098F09-C3A0-49EF-B2F5-C16EF26C6DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToySystem.UI.Web", "ToySystem.UI.Web\ToySystem.UI.Web.csproj", "{F889E6A5-07D8-40AF-AADE-AAE466AE31F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToySystem.UI.Web", "ToySystem.UI.Web\ToySystem.UI.Web.csproj", "{F889E6A5-07D8-40AF-AADE-AAE466AE31F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{EBE598E9-9910-4823-9EA1-65DEBB5904B0}"
+	ProjectSection(SolutionItems) = preProject
+		Create_Database.sql = Create_Database.sql
+		Dapper_test_procedure_01.sql = Dapper_test_procedure_01.sql
+		Dapper_test_table_01.sql = Dapper_test_table_01.sql
+		Dapper_test_table_02.sql = Dapper_test_table_02.sql
+		Dapper_test_table_03.sql = Dapper_test_table_03.sql
+		Dapper_test_table_04.sql = Dapper_test_table_04.sql
+		Dapper_test_table_05.sql = Dapper_test_table_05.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,6 +109,7 @@ Global
 		{711E0FFA-A881-4B7D-8878-2B4E91687DEE} = {C70BBC1F-88F0-4DC9-8F90-F998607143AC}
 		{33D14CF0-24FA-451F-9BFC-41175D37B7FA} = {97F7B50E-27CD-459C-B009-F5149CD8F7B8}
 		{F889E6A5-07D8-40AF-AADE-AAE466AE31F0} = {59098F09-C3A0-49EF-B2F5-C16EF26C6DA2}
+		{EBE598E9-9910-4823-9EA1-65DEBB5904B0} = {81BA031D-6DBE-4377-8385-F46987841563}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5239BDA-ABE1-4745-8194-006C0FA4D6F1}

@@ -1,0 +1,46 @@
+﻿USE [MANAGEAPP]
+GO
+
+/****** Object:  Table [dbo].[T_COMMON_CODE]    Script Date: 2018-12-10 오후 11:07:24 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[T_COMMON_CODE](
+	[CODE_TYPE] [nvarchar](32) NOT NULL,
+	[CODE_TYPE_NAME] [nvarchar](128) NOT NULL,
+	[CODE_ID] [nvarchar](32) NOT NULL,
+	[CODE_NAME] [nvarchar](128) NOT NULL,
+	[CODE_VAL] [int] NULL,
+	[SORT_ORDER] [int] NULL,
+	[USE_YN] [bit] NULL,
+	[CODE_COMMENT] [nvarchar](128) NULL,
+	[CREATE_USER_ID] [nvarchar](16) NULL,
+	[CREATE_DT] [datetime] NULL,
+ CONSTRAINT [PK_TCommonCode] PRIMARY KEY CLUSTERED 
+(
+	[CODE_TYPE] ASC,
+	[CODE_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+USE master
+GO
+
+INSERT INTO MANAGEAPP.DBO.T_COMMON_CODE
+SELECT
+	CodeType
+	, CodeTypeName
+	, CodeId
+	, CodeName
+	, CodeVal
+	, SortOrder
+	, CASE WHEN UseYn = 'Y' THEN 1 ELSE 0 END AS USEYN
+	, CodeComment
+	, CreateUserId
+	, CreateDt
+FROM PJSWORK.DBO.TCommonCode

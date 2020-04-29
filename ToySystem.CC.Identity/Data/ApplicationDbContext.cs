@@ -1,5 +1,4 @@
-﻿using ToySystem.UI.Web.Models;
-using IdentityServer4.EntityFramework.Options;
+﻿using IdentityServer4.EntityFramework.Options;
 using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -8,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ToySystem.UI.Web.Data
+namespace ToySystem.CC.Identity.Models
 {
     public class ApplicationDbContext : ApiAuthorizationDbContext<ApplicationUser>
     {
